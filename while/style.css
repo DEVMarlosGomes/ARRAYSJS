@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+h1 {
+    color: red;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+#mensagem {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#tentativas {
+    margin-top: 20px;
+    font-size: 16px;
+}
